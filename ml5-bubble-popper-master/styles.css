@@ -1,0 +1,54 @@
+
+ body {
+     background: url("assets/jelly-fish.jpg")  no-repeat fixed 0 0 / cover;
+     font-family: 'Lato', sans-serif;
+     color: white;
+     font-size: 24px;
+ }
+
+ h1 {
+     font-size: 60px;
+     font-weight: 900;
+ }
+
+ hr {
+     width: 50px;
+     height: .5em;
+     border: 0; border-top: 1px solid #ffffff;
+ }
+
+.bubble {
+   left: 0;
+    top: 0;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.2);
+    animation: bounce .5s cubic-bezier(.5, -.9, .6, 1.9) forwards;
+}
+
+
+@keyframes bounce {
+    0%{
+        height: 50px;
+    }
+    100% {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+ .card{
+     font-family: 'Permanent Marker', cursive;
+     max-width: 400px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 40px;
+     color: #1e043b;
+     font-size: 24px;
+ }
+ .card h2{
+     font-size: 40px;
+  }
